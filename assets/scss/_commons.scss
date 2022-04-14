@@ -1,0 +1,60 @@
+// Variables globales
+
+*{
+    padding: 0;
+    margin: 0;
+}
+a{
+    text-decoration: none;
+}
+//colores
+$primary:rgb(41,41,41);
+$secondary:rgb(197, 197, 197);
+$third:rgb(117, 115, 115);
+$fourth:rgb(255, 255, 255);
+$fifth:rgb(190, 188, 188);
+$sixth: rgb(170,170,170);
+
+//Color de fondo
+.bg-Color { 
+    background-color: $primary;
+}
+
+
+//--------------------Estilo de los titulos principales h1 
+.Main_Titulo{
+    text-align: center;
+    color: rgb(117, 115, 115);
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+    font-size: 2rem;
+}
+//--------------Estilo de los Parrafos
+.Parrafos{
+    font-size: calc(0.5rem + 1vw);
+    color: rgb(117, 115, 115);
+    line-height: 2.4rem;
+    letter-spacing: 1px;
+    word-spacing: 2px ;
+}
+//Color de texto pequeños
+.texto-color{
+    color: $third;
+}
+
+//color botones
+.btn-color{
+    background-color: $secondary;
+    color: $third;
+    a{
+        color: $third;
+    }
+    
+}
+.btn-color-carrito{
+    background-color: $primary;
+    color: $secondary;
+    a{
+        color: $third;
+    }
+}

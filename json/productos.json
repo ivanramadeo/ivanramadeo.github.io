@@ -1,0 +1,53 @@
+[
+    {
+        "nombre": "Tazas sublimadas",
+        "precio": "700",
+        "stock": "20",
+        "img" : "taza_sublimada_profe.webp",
+        "alt" : "taza sublimada",
+        "descripcion" : "Tazas sublimadas con fotos elegidas por el cliente, diseños personalizados o de la cultura pop! ."
+    },
+    {
+        "nombre": "Almohadas",
+        "precio": "250",
+        "stock": "50",
+        "img" : "almohada_unicornio.webp",
+        "alt" : "Almohada de unicornio sublimada",
+        "descripcion" : "Las almohadas están hechas de telas de muy buena calidad, y los diseños pueden ser dentro del catálogo o por encargo!"
+    },
+    {
+        "nombre": "Agendas",
+        "precio": "1000",
+        "stock": "200",
+        "img" : "agenda_perzonalizada.webp",
+        "alt" : "Agenda personalizada",
+        "descripcion" : "Modelos prediseñados y hacemos por encargo. Además se pueden comprar por unidad o en cantidad para instituciones."
+    },
+    {
+        "nombre": "Termos autocebantes",
+        "precio": "650",
+        "stock": "50",
+        "img" : "termo_autocebante_vinilo.webp",
+        "alt" : "Termo atocebante",
+        "descripcion" : "Termos autocebantes personalizados con vinilo, ideales para la oficina o la facultad."
+    },
+    {
+        "nombre": "Gorras",
+        "precio": "200",
+        "stock": "100",
+        "img" : "gorra_sublimada.webp",
+        "alt" : "Gorra pulbicitaria sublimada",
+        "descripcion" : "Gorras para individuos o para empresas, podes pedir un diseño personalizado o uno estandar."
+    },
+    {
+        "nombre": "Remeras",
+        "precio": "1200",
+        "stock": "500",
+        "img" : "remera_river_sublimada.webp",
+        "alt" : "Remera sublimada River Plate",
+        "descripcion" : "Remeras personalizadas con diseños de equipos de futbol, anime o lo que se te ocurra!."
+    }
+
+
+
+]

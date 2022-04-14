@@ -1,0 +1,126 @@
+
+//**********************************************************Estilos index.html****************************
+
+/*Estilo de titulos secundarios*/
+.tituloSec{
+    color: $third;
+    font-family: $secondaryFont;
+    font-weight: 600;
+    text-align: center;
+    font-size: 2rem;
+}
+
+/*Color Enlaces a Secciones*/
+.Enlaces a{
+    color:$third;
+}
+
+/*Estilo de las imagenes*/
+.imgStyle{
+    border-radius: 10px;
+}
+
+//*********************************************************************Estilos nosotros.html****************************
+
+
+/*--------------Imagen------------*/
+.principal__Imagen{
+    width: 60%;
+    border-radius: 10%;
+    margin:10px;
+    object-fit: fill;
+}
+.secundario__Imagen{
+    border-radius: 10%;
+    width: 75%;
+}  
+
+//**********************************************************************Estilos contacto.html*******************************
+
+
+//subtitulo h2
+#subTitulo{
+    font-size: 1rem;
+    color: rgb(117, 115, 115);
+}
+//Estilos de botones a redes sociales y llamada
+.redesFb{
+    font-size: 5rem;
+    a{
+        color: $secondary;
+        border-radius: 10%;
+    }
+}
+.redesWpp{
+    font-size: 5rem;
+    a{
+        color: $secondary;
+        border-radius: 10%;
+    }
+}
+.redesIg{
+    font-size: 5rem;
+    a{
+        color: $secondary;
+        border-radius: 10%;
+    }
+}
+.redesPhone{
+    font-size: 5rem;
+    a{
+        color: $secondary;
+        border-radius: 10%;
+    }
+}
+
+.row{
+    margin: 0;
+}
+//***********************************************************Estilo tienda.html****************************************
+
+
+//Estilo de las cards
+.card-text{
+    overflow: hidden; 
+	text-overflow: ellipsis; 
+	display: -webkit-box; 
+	-webkit-line-clamp: 2; /* number of lines to show */ 
+	-webkit-box-orient: vertical;
+}
+
+
+//****************************************************Estilo trabajos**************
+//Estilos del acordeon
+.accordion-button {
+    font-size: calc(0.6rem + 1vw);
+    color:$third;
+    font-family: $secondaryFont;
+    font-weight: 700;
+    
+}
+
+.accordion-item {
+    border: 1px solid rgba(35, 65, 100, .15)
+}
+
+.accordion-button:not(.collapsed) {
+    color: $third;
+    background:$fifth ;
+    color:$third ;
+    font-weight: 600;
+}
+
+.accordion-button:not(.collapsed)::after  {
+    filter: brightness(00%) invert(70%);
+}
+
+.accordion-button:focus {
+    box-shadow: inherit;
+}
+
+.accordion-body {
+    font-size: calc(0.6rem + 1vw);
+    color:$third ;
+    font-family: $mainFont;
+}
+

@@ -1,0 +1,25 @@
+   
+    /*Tamaño de fuente Botonera*/
+    .Lista{
+        font-size: 2rem;
+        color:$secondary;
+    }
+    
+      
+      
+      ul li a.cart:hover {
+        text-decoration: none;
+        color: $third;
+      }
+      
+      ul li a.cart .cart-basket {
+        font-size: .6rem;
+        position: absolute;
+        top: -6px;
+        right: -5px;
+        width: 15px;
+        height: 15px;
+        color: #fff;
+        background-color: $sixth;
+        border-radius: 50%;
+      }

@@ -1,0 +1,43 @@
+body{
+    background: rgb(41,37,36);
+    margin: 0;
+    padding: 0;
+    height: auto;
+    font-family: 'Open Sans', sans-serif;
+}
+img{
+    width: 30%;
+    margin-top: 6rem;
+    border-radius: 50%;
+
+}
+a{
+    text-decoration: none;
+    color: rgb(117, 115, 115) ;
+}
+.container{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    align-items: center;
+    justify-content: center;
+}
+h1{
+    color: rgb(233, 238, 245);
+    font-size: 50px;
+    color: rgb(117, 115, 115);
+}
+button{
+    padding: 13px 30px;
+    border-radius: 15px;
+    border: none;
+    background:rgb(190, 188, 188);
+    color: white;
+}
+
+@media screen and (max-width:630px){
+    h1{        
+        font-size: 16px;        
+    }
+}
